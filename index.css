@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100vw;
+  height: 50px;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mylogo {
+  color: royalblue;
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 30px;
+  background-color: bisque;
+  margin-top: 70px;
+  padding: 0 2rem;
+}
+
+.date {
+  float: right;
+  padding-right: 20px;
+  color: blue;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.allbooks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+ul li {
+  text-decoration: none;
+  font-size: 15px;
+  color: royalblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: red;
+}
+
+main {
+  width: 100vw;
+}
+
+.book.hide {
+  display: none;
+}
+
+.book {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.addbook.hide {
+  display: none;
+}
+
+.addbook {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.awesomebook {
+  width: 65%;
+  height: 30px;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.awesomebook:nth-child(odd) {
+  background-color: gray;
+}
+
+.awesomebook.item {
+  color: black;
+}
+
+.remove {
+  width: 80px;
+  height: 20px;
+  color: white;
+  background-color: turquoise;
+  border: 1px solid black;
+  box-shadow: gray 0 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 10px;
+}
+
+form input {
+  height: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 1px solid black;
+}
+
+form input:focus {
+  border: 2px solid black;
+  outline: black;
+}
+
+form button {
+  width: 90px;
+  cursor: pointer;
+  margin: 0 auto;
+  height: 25px;
+  font-weight: bold;
+  border: 2px solid turquoise;
+  border-radius: 5px;
+}
+
+.contat.hide {
+  display: none;
+}
+
+.contat {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
