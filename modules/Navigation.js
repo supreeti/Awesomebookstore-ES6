@@ -1,8 +1,8 @@
 const navbar = document.querySelectorAll('.links li');
 
 navbar.forEach((link) => {
- link.addEventListener('click', () => {
-   if (link.innerText === 'List') {
+  link.addEventListener('click', () => {
+    if (link.innerText === 'List') {
       document.querySelector('.book').classList.remove('hide');
       document.querySelector('.addbook').classList.add('hide');
       document.querySelector('.contat').classList.add('hide');
