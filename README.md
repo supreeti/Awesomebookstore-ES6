@@ -101,7 +101,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/supreeti/Awesomebookstore-ES6/issues/new).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,6 +124,6 @@ I would like to thank to Microverse for support..
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/supreeti/Awesomebookstore-ES6/blob/main/LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
