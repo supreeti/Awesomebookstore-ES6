@@ -14,7 +14,8 @@ const Time = () => {
 setInterval(Time, 2000);
 
 navbar.forEach((link) => {
-  link.addEventListener('click', () => {  
+  link.addEventListener('click', (e) => {  
+    e.preventDefault();
     if (link.innerText === 'List') {
       document.querySelector('.book').classList.remove('hide');
       document.querySelector('.addbook').classList.add('hide');
