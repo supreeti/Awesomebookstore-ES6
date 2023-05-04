@@ -53,7 +53,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git@github.com:supreeti/Awesomebookstore-ES6 .git
+  git clone https://github.com/supreeti/Awesomebookstore-ES6.git
 ```
 ### Install
 
