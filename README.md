@@ -4,7 +4,7 @@ using javascript ES6 objects and arrow notation.
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents (#readme-top)
+# 📗 Table of Contents <a name="readme-top"></a>
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -19,8 +19,7 @@ using javascript ES6 objects and arrow notation.
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-
-**[# Awesomebookstore-ES6 ]**  
+ 
 This project is an online library for storage of books locally
 using javascript ES6 objects and arrow notation and modules. 
 

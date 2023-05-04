@@ -1,35 +1,12 @@
 import Storebooks from './modules/Bookstore.js';
-import luxon from './modules/luxon.js';
+import navbar from './modules/Navigation.js';
+import time from './modules/Datetime.js';
+
+const dateTime = time;
+setInterval(dateTime, 1000);
 
 const Addbook = document.querySelector('#add');
 const newbooks = new Storebooks();
-const navbar = document.querySelectorAll('.links li');
-
-const Date = document.getElementById('currdate');
-const Time = () => {
-  Date.innerHTML = luxon.DateTime.now().toLocaleString(
-    luxon.DateTime.DATETIME_MED_WITH_WEEKDAY,
-  );
-};
-setInterval(Time, 2000);
-
-navbar.forEach((link) => {
-  link.addEventListener('click', () => {
-    if (link.innerText === 'List') {
-      document.querySelector('.book').classList.remove('hide');
-      document.querySelector('.addbook').classList.add('hide');
-      document.querySelector('.contat').classList.add('hide');
-    } else if (link.innerText === 'Add') {
-      document.querySelector('.book').classList.add('hide');
-      document.querySelector('.addbook').classList.remove('hide');
-      document.querySelector('.contat').classList.add('hide');
-    } else if (link.innerText === 'Contact') {
-      document.querySelector('.book').classList.add('hide');
-      document.querySelector('.addbook').classList.add('hide');
-      document.querySelector('.contat').classList.remove('hide');
-    }
-  });
-});
 
 const updatebook = () => {
   const booklist = document.querySelector('.allbooks');
@@ -58,4 +35,7 @@ Addbook.addEventListener('click', () => {
   updatebook();
 });
 
-window.onload = () => updatebook();
+window.onload = () => {
+  updatebook();
+  navbar();
+};

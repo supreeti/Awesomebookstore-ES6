@@ -172,3 +172,13 @@ form button {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.copyright a {
+  text-decoration: none;
+}
