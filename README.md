@@ -4,7 +4,7 @@ using javascript ES6 objects and arrow notation.
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+# 📗 Table of Contents (#readme-top)
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -19,7 +19,7 @@ using javascript ES6 objects and arrow notation.
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-.
+
 **[# Awesomebookstore-ES6 ]**  
 This project is an online library for storage of books locally
 using javascript ES6 objects and arrow notation and modules. 
@@ -109,7 +109,7 @@ Feel free to check the [issues page](https://github.com/supreeti/Awesomebookstor
 
 ## ⭐️ Show your support by giving me ratings <a name="support"></a>
 
-If you like this project please contact author...
+If you like this project please give me ratings ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,12 +117,12 @@ If you like this project please contact author...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to Microverse for support..
+I would like to thank to my coding partner and Microverse for support..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 📝 License
+## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/supreeti/Awesomebookstore-ES6/blob/main/LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
