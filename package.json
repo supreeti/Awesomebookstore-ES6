@@ -1,0 +1,20 @@
+{
+  "name": "awesomebookstore-es6",
+  "version": "1.0.0",
+  "description": "This project is an online library to add/delete and store books locally using javascript ES6 objects and arrow notation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supreeti/Awesomebookstore-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supreeti/Awesomebookstore-ES6/issues"
+  },
+  "homepage": "https://github.com/supreeti/Awesomebookstore-ES6#readme"
+}
